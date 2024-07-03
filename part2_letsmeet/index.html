@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge at UMass Amherst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+.container {
+    max-width: 900px; /* Increased from 800px */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.code {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    color: white;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: white;
+}
+#userInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+#validateBtn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#validateBtn:hover {
+    background-color: #555;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Friend at UMass Amherst!</h1>
+        <p>Two friends, X and Y, studying at UMass Amherst decide to meet. They both have some piece of information that will help them reach each other.</p>
+        <img src="umass_map.png" alt="UMass Amherst">
+        <p>X:</p>
+        <div class="code"></div>
+        <p>Y:</p>
+        <div class="code"></div>
+        <p>Decode the messages to find where they plan to meet!</p>
+        <input type="text" id="userInput" placeholder="Enter your answer">
+        <button id="validateBtn"><i class="fas fa-check"></i> Use me for validation unless you unlock this level</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

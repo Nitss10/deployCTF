@@ -1,0 +1,21 @@
+Final Flag: CTF_SDaT{YoFriend}
+
+Level 1:
+Step 1: Inspect element and go to the script section or console section to see a series of space separated numbers.
+Step 2: Convert those numbers into corresponding alphabets from the phone keypad to make an aggregated url.
+Step 3: Open the new link/url.
+
+
+Level 2:
+Step 1: In this new link/puzzle, first select on the empty spaces to get the value of X and Y coordinate. 
+Step 2: Put these two values of coordinates on google maps and get the name of the location, campus pond in this case. Once you enter it you will get a link of geeksforgeeks problem.
+Step 3: To solve the problem, we need two strings. Once is the one that we already found, campus pond, and for the other, inspect the page and find the string in console.
+Step 4: Now run the geeksforgeeks program with these two steps to get the longest common subsequence and enter the answer to finally get the url for level 3.
+
+
+Level 3:
+Step 1: In the url, download the zip file.
+Step 2: Check the hidden files in the downloaded folder.
+Step 3: Get the route from the hidden file and use it in your browser to reach your final destination.
+Step 4: You got the flag. The value of the flag is now statically set in the flag.html file.
+

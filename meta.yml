@@ -1,0 +1,39 @@
+name: how-do-I-meet-friend
+
+description: |
+  author: [Niti Mangwani](https://github.com/Nitss10)
+
+  Instruction:
+  This challenge is a mixture of password guessing, social engineering, mapping skills, geographical conscience, and basic programming skills. 
+
+
+  Step 1:
+    Forward the traffic back from the remote server
+  Step 2:
+    Access the website on local port and solve the series of 3 challenges. Each level gives you a hint for the next level and as you progress it becomes more challenging.
+  Step 3:
+    Submit the Flag.
+
+# Value should be in range of 100-300
+value: 200
+# Available categories are: 
+category: Web
+# Your custom Flag
+flag: CTF_SDaT{YoFriend}
+hints:
+  - {
+    content: "The content of the website includes not only html but also js script, headers, etc.",
+    cost: 20
+  }
+  - {
+    content: "Try reading between lines and use geospatial mapping tool. meet your friend.",
+    cost: 40
+  }
+  - {
+    content: "The content of the website includes not only html but also js script, console logs, etc. Try building solution from the hint before with the current one.",
+    cost: 20
+  }
+  - {
+    content: "Try checking all files to find the route to your friend",
+    cost: 20
+  }
