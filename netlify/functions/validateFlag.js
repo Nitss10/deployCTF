@@ -1,7 +1,7 @@
 exports.handler = async function(event, context) {
     const body = JSON.parse(event.body);
     const userFlag = body.flag;
-    const secretFlag = "/youalmostfoundyourfriend";  
+    const secretFlag = "YoFriend";  
 
     if (userFlag === secretFlag) {
         return {
